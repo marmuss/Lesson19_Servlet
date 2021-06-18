@@ -22,6 +22,5 @@ public class RegistrationServlet extends HttpServlet {
         InMemoryStorage inMemoryStorage = InMemoryStorage.getInstance();
 
         resp.getWriter().println(inMemoryStorage.add(user));
-
     }
 }
